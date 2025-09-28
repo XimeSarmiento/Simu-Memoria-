@@ -1,0 +1,7 @@
+[
+  { "nombre": "P1", "tiempo_arribo": 0, "duracion": 5,  "memoria_requerida": 20 },
+  { "nombre": "P2", "tiempo_arribo": 1, "duracion": 5,  "memoria_requerida": 25 },
+  { "nombre": "P3", "tiempo_arribo": 2, "duracion": 5,  "memoria_requerida": 30 },
+  { "nombre": "P4", "tiempo_arribo": 6, "duracion": 4,  "memoria_requerida": 40 },
+  { "nombre": "P5", "tiempo_arribo": 7, "duracion": 3,  "memoria_requerida": 15 }
+]

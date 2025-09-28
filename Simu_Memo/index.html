@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Simulador de Memoria</title>
+        <link rel="stylesheet" href="estilos.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1>Simulador de Asignación de Memoria</h1>
+            
+            <div class="config-section">
+                <h2>Configuración</h2>
+                <div class="config-line">
+                    <div class="form-group">
+                        <label for="memoriaTotal">Memoria Total (KB):</label>
+                        <input type="number" id="memoriaTotal" value="100" min="1">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="estrategia">Estrategia:</label>
+                        <select id="estrategia">
+                            <option value="first-fit">First-Fit</option>
+                            <option value="best-fit">Best-Fit</option>
+                            <option value="worst-fit">Worst-Fit</option>
+                            <option value="next-fit">Next-Fit</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="tiempos-line">
+                    <div class="form-group">
+                        <label for="tiempoSeleccion">Tiempo Selección (ut):</label>
+                        <input type="number" id="tiempoSeleccion" value="1" min="0">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="tiempoCarga">Tiempo Carga (ut):</label>
+                        <input type="number" id="tiempoCarga" value="1" min="0">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="tiempoLiberacion">Tiempo Liberación (ut):</label>
+                        <input type="number" id="tiempoLiberacion" value="1" min="0">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="archivoJSON">Archivo de Trabajos (JSON):</label>
+                    <input type="file" id="archivoJSON" accept=".json">
+                </div>
+                
+                <button onclick="iniciarSimulacion()">Iniciar Simulación</button>
+                <button onclick="animarSimulacion()">Ver Animación</button>
+                
+                <div class="form-group">
+                    <label for="velocidadAnimacion">Velocidad de animación (ms por UT):</label>
+                    <input type="number" id="velocidadAnimacion" value="300" min="50">
+                </div>
+            </div>
+
+            <div class="canvas-container">
+                <h2>Diagrama de Memoria</h2>
+                <canvas id="memoriaCanvas" width="1000" height="400"></canvas>
+            </div>
+
+            <div class="metrics">
+                <h2>Indicadores de la Simulación</h2>
+                <div id="indicadores"></div>
+            </div>
+
+            <div class="event-log">
+                <h2>Registro de Eventos</h2>
+                <div id="eventLog"></div>
+            </div>
+        </div>
+        <script src="Simulador.js"></script>
+        <script src="VisualizadorMemoria.js"></script>
+        <script src="app.js"></script>
+
+    </body>
+</html>

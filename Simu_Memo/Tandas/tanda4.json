@@ -1,0 +1,9 @@
+[
+  { "nombre": "P1", "tiempo_arribo": 0, "duracion": 4,  "memoria_requerida": 35 },
+  { "nombre": "P2", "tiempo_arribo": 1, "duracion": 3,  "memoria_requerida": 20 },
+  { "nombre": "P3", "tiempo_arribo": 2, "duracion": 5,  "memoria_requerida": 25 },
+  { "nombre": "P4", "tiempo_arribo": 3, "duracion": 2,  "memoria_requerida": 15 },
+  { "nombre": "P5", "tiempo_arribo": 4, "duracion": 4,  "memoria_requerida": 30 },
+  { "nombre": "P6", "tiempo_arribo": 5, "duracion": 3,  "memoria_requerida": 10 },
+  { "nombre": "P7", "tiempo_arribo": 10, "duracion": 6, "memoria_requerida": 40 }
+]

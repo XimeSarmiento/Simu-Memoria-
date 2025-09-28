@@ -1,0 +1,62 @@
+[
+  {
+    "nombre": "P1",
+    "tiempo_arribo": 0,
+    "duracion": 4,
+    "memoria_requerida": 110
+  },
+  {
+    "nombre": "P2",
+    "tiempo_arribo": 1,
+    "duracion": 6,
+    "memoria_requerida": 140
+  },
+  {
+    "nombre": "P3",
+    "tiempo_arribo": 2,
+    "duracion": 5,
+    "memoria_requerida": 200
+  },
+  {
+    "nombre": "P4",
+    "tiempo_arribo": 3,
+    "duracion": 7,
+    "memoria_requerida": 95
+  },
+  {
+    "nombre": "P5",
+    "tiempo_arribo": 4,
+    "duracion": 8,
+    "memoria_requerida": 170
+  },
+  {
+    "nombre": "P6",
+    "tiempo_arribo": 5,
+    "duracion": 3,
+    "memoria_requerida": 250
+  },
+  {
+    "nombre": "P7",
+    "tiempo_arribo": 6,
+    "duracion": 6,
+    "memoria_requerida": 120
+  },
+  {
+    "nombre": "P8",
+    "tiempo_arribo": 7,
+    "duracion": 5,
+    "memoria_requerida": 80
+  },
+  {
+    "nombre": "P9",
+    "tiempo_arribo": 8,
+    "duracion": 4,
+    "memoria_requerida": 210
+  },
+  {
+    "nombre": "P10",
+    "tiempo_arribo": 10,
+    "duracion": 7,
+    "memoria_requerida": 160
+  }
+]
