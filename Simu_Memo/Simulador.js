@@ -324,7 +324,7 @@ class SimuladorMemoria {
       const idx = (this.proximoIndiceNextFit + i) % n;
       const p = this.particiones[idx];
       if (p.estado === "libre" && p.tamaño >= memoriaRequerida) {
-        this.proximoIndiceNextFit = idx + 1;
+        this.proximoIndiceNextFit = idx ;
         return p.inicio;
       }
     }
